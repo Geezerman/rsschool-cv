@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Beiruti;
+  src: url("assets/fonts/Beiruti.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Mulish;
+  src: url("assets/fonts/Mulish.ttf");
+  font-weight: 400;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1 {
+  color: rgba(194, 28, 28, 0.384);
+  font-family: "Mulish", sans-serif;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: square outside;
+  font-size: 25px;
+  font-family: "Mulish", sans-serif;
+}
+li {
+  list-style-type: circle;
+}
+.footer {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8a3434;
+  font-family: "Beiruti", sans-serif;
+  font-size: 25px;
+}
+.footer a,
+.footer a:visited {
+  color: #050505;
+  text-decoration: none;
+}
+.footer p {
+  color: #030303;
+}
